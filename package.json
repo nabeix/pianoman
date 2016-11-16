@@ -1,0 +1,31 @@
+{
+  "name": "pianoman",
+  "version": "0.0.1",
+  "description": "Be a pianoman",
+  "main": "index.js",
+  "bin": {
+    "pianoman": "./bin/pianoman"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabeix/pianoman.git"
+  },
+  "author": "Yusuke Watanabe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nabeix/pianoman/issues"
+  },
+  "homepage": "https://github.com/nabeix/pianoman#readme",
+  "devDependencies": {
+    "@types/node": "^6.0.48",
+    "typescript": "^2.0.10"
+  },
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "speaker": "^0.3.0"
+  }
+}
